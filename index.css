@@ -1,0 +1,27 @@
+
+header,image{
+    background-color: black;
+}
+
+nav,ul{
+    background-color: rgb(204, 204, 219);
+    display: flex;
+    justify-content:center;
+    font-size: 125%;
+    margin: auto;
+}
+
+.slide,img{
+    height:50%;
+    width:100%;
+    overflow: visible;
+    
+    
+}
+.slide,slider{
+    display: flex;
+    justify-content: center;
+    
+    
+    
+}
