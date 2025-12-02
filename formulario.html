@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="formulario.css">
+    <script src="formulario.js" defer></script>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <h2>Ciudad del Conocimiento</h2>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Cursos</a></li>
+                <li><a href="#">Profesores</a></li>
+                <li><a href="#">Actividades</a></li>
+                <li><a href="formulario.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <form id="formulario">
+                <fieldset>
+                    <legend>Formulario Ciudad del Conocimiento</legend>
+                    
+                    <label for="nombre">Nombre: </label>
+                    <input type="text" id="nombre" name="nombre" placeholder="Ingrese su nombre" required>
+                    
+                    <label for="apellido">Apellido: </label>
+                    <input type="text" id="apellido" name="apellido" placeholder="Ingrese su apellido" required>
+                    
+                    <label for="correo">Correo: </label>
+                    <input type="email" id="correo" name="correo" placeholder="Ingrese su correo" required>
+                    
+                    <label for="telefono">Teléfono: </label>
+                    <input type="tel" id="telefono" name="telefono" placeholder="Ingrese su teléfono" required>
+                    
+                    <label for="tipo-consulta">Tipo de consulta: </label>
+                    <select id="tipo-consulta" name="tipo-consulta" required>
+                        <option value="">Seleccione una opción</option>
+                        <option value="informacion">Información general</option>
+                        <option value="matricula">Matrícula</option>
+                        <option value="programas">Programas académicos</option>
+                        <option value="becas">Becas y financiamiento</option>
+                        <option value="otros">Otros</option>
+                    </select>
+                    
+                    <label for="mensaje">Mensaje: </label>
+                    <textarea id="mensaje" name="mensaje" placeholder="Ingrese su mensaje" required></textarea>
+                    
+                    <div class="checkbox-container">
+                        <input type="checkbox" id="suscripcion" name="suscripcion">
+                        <label for="suscripcion">Deseo suscribirme al boletín informativo</label>
+                    </div>
+                    
+                    <button type="submit">Enviar</button>
+                    
+                    <div class="mensaje-confirmacion" id="mensajeConfirmacion">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                        </svg>
+                        ¡Formulario enviado satisfactoriamente! Nos pondremos en contacto pronto.
+                    </div>
+                </fieldset>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <!-- Contenido del pie de pagina -->
+    </footer>
+</body>
+</html>
