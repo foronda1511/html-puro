@@ -1,0 +1,91 @@
+header {
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+
+.header_text{
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    margin-top: -10px;
+}
+
+
+h1{
+    display: flex;
+    font-size: 2.0rem;
+    padding-left: 50rem;
+}
+
+h2{
+    display: flex;
+    font-size: 1.5rem;
+    padding-left: 25rem;
+}
+
+
+.cursos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    padding-top: 2rem;
+}
+
+.curso img{
+    display: flex;
+    width: 550px;
+    padding-left: 1rem;
+    border-radius: 2rem;    
+}
+
+.curso_titulo{
+    display: flex;
+    margin-right: 20px;
+    padding-left: 17rem;
+}
+
+.curso_objetivo{
+    display: flex;
+    padding-left: 8rem;
+}
+
+<<<<<<< HEAD
+=======
+.curso_titulo_2{
+    display: flex;
+    margin-right: 20px;
+    padding-left: 17rem;
+}
+
+.curso_objetivo_2{
+    display: flex;
+    padding-left: 5rem;
+}
+
+.curso_titulo_3{
+    display: flex;
+    margin-right: 20px;
+    padding-left: 17rem;
+}
+
+.curso_objetivo_3{
+    display: flex;
+    padding-left: 5rem;
+}
+
+nav ul{
+    display: flex;
+    list-style-type: none;
+}
+
+nav li{
+    margin-left: 20rem;
+    margin-right: 10rem;
+}
+>>>>>>> b5f20ba (curso)
+
+
