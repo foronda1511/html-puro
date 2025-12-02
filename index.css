@@ -1,27 +1,45 @@
 
-header,image{
+header{
     background-color: black;
+}
+body{
+    background-color: rgb(213, 214, 213);
+}
+
+.introduction{
+    font-size:25px;
 }
 
 nav,ul{
     background-color: rgb(204, 204, 219);
     display: flex;
     justify-content:center;
-    font-size: 125%;
+    font-size: 30px;
     margin: auto;
 }
 
-.slide,img{
-    height:50%;
+.slide{
     width:100%;
-    overflow: visible;
-    
-    
+    overflow: hidden;
+    position: relative;
 }
-.slide,slider{
+.controller{
     display: flex;
-    justify-content: center;
-    
-    
-    
+    gap: 20px;
+    animation: slide 20s linear infinite;
+
+}
+
+.controller img{
+    width: 70%;
+    height:70%;
+    object-fit: cover;
+    display: block;
+    border-radius:10px ;
+
+}
+@keyframes slide {
+    0%{transform: translateX(0);}
+    100%{transform: translateX(-09%);}
+
 }
