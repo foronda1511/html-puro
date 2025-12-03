@@ -1,10 +1,12 @@
 table{
   
     border-style: groove;
-
+    overflow: hidden;
+    border-radius: 15px;
 }
 
 th{
+    background-color: #444fff;
  border: 1px solid black;
  padding: 10px;
 }
@@ -12,6 +14,11 @@ th{
 td{
     border: 1px solid black;
     padding: 10px;
+    background-color: #777ddd;
+}
+th, td{
+    padding: 15px 18px;
+
 }
 h1{
     background-color: rgba(150, 106, 49, 0.616);
@@ -23,4 +30,15 @@ h1{
 
 body{
     background-color: rgba(40, 101, 105, 0.377);
+}
+article{
+    background-color: rgba(44, 72, 151, 0.281);
+    border: 1px solid black;
+   text-align: center;
+    border-radius: 20px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.12);
+    transition: 0.3s ease;
+}
+img hgroup{
+    height: 20%;
 }
