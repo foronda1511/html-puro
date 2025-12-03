@@ -3,6 +3,7 @@ table{
     border-style: groove;
     overflow: hidden;
     border-radius: 15px;
+    box-shadow: red 4px 5px 5px;
 }
 
 th{
@@ -16,6 +17,7 @@ td{
     padding: 10px;
     background-color: #777ddd;
 }
+
 th, td{
     padding: 15px 18px;
 
@@ -29,7 +31,7 @@ h1{
 }
 
 body{
-    background-color: rgba(40, 101, 105, 0.377);
+    background-color: rgba(24, 187, 199, 0.377);
 }
 article{
     background-color: rgba(44, 72, 151, 0.281);
@@ -38,7 +40,12 @@ article{
     border-radius: 20px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.12);
     transition: 0.3s ease;
+    box-shadow: black 4px 5px 5px;
 }
-img hgroup{
-    height: 20%;
+
+article ul{
+    text-align: left;
+}
+p :hover{
+background-color: #777ddd;
 }
