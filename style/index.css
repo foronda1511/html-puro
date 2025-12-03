@@ -19,6 +19,10 @@ nav,ul{
 }
 
 .slide{
+    display: flex;
+    gap:  20px;
+    overflow: auto;
+    scroll-snap-type:  x mandatory;
     width:100%;
     overflow: hidden;
     position: relative;
@@ -26,8 +30,7 @@ nav,ul{
 .controller{
     display: flex;
     gap: 20px;
-    animation: slide 20s linear infinite;
-
+    animation: slide 10s linear infinite;
 }
 
 .controller img{
@@ -39,7 +42,6 @@ nav,ul{
 
 }
 @keyframes slide {
-    0%{transform: translateX(0);}
-    100%{transform: translateX(-50%);}
-
+    from{transform: translateX(0);}
+    to{transform: translateX(-100%);}
 }
