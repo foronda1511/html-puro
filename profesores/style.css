@@ -22,13 +22,29 @@ th, td {
     padding: 10px 70px;
 
 }
-
+h1 {
+    color: rgb(2, 3, 3);
+    transition: 0.3s;
+}
+h1:hover {
+    color: red;
+    cursor: pointer;
+}
 h1{
     background-color: rgba(150, 106, 49, 0.616);
     text-align: center;
     box-shadow: blue 4px 5px 4px;
     text-shadow: 2px 4px 4px ;
 
+}
+h2 {
+    color: #000;
+    transition: 0.3s;
+
+}
+h2:hover {
+    color: red;
+    cursor: pointer;
 }
 
 body{
@@ -43,6 +59,7 @@ article{
     transition: 0.3s ease;
     box-shadow: rgb(4, 228, 142) 4px 5px 5px;
     margin-top: 20px;
+   
 }
 
 article ul{
@@ -56,12 +73,16 @@ hgroup {
     margin-left: 30%;
     margin-right: 30%;
 }
-div hgroup{
-    width: 100px;
-    height: 10px;
-    background-color: aquamarine;
-    transform: rotate(30deg);
+hgroup {
+    color: #000;
+    transition: 0.3s;
+
 }
+hgroup:hover {
+    color: red;
+    cursor: pointer;
+}
+
 img{
     border-radius: 20px;
     margin-top: 10px;
