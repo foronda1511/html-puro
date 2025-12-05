@@ -68,3 +68,11 @@ a{
     margin-right: 10%;
     box-shadow: rgb(144, 73, 224) 5px 7px 5px;
 }
+nav{
+    background-color: #3e526e;
+    display: flex;
+    justify-content:space-between;
+    font-size: 30px;
+    margin: auto;
+    
+}
